@@ -39,6 +39,7 @@ const DynamicTitle = () => {
 
 export default DynamicTitle;
 
+// 1) Stateful Logic Notes --------------------------------------------------------------------------------------------------
 // Q: Where are the examples of Stateful logic?
 // - handleChanges function is enabeling the user to alter the state of the inputText
 // - changeTitle function is enabeling the user to change the state of the title, by passing it the value of inputText after the user has entered in new value, and clicks submit.
@@ -48,3 +49,8 @@ export default DynamicTitle;
 // - - title
 // - - inputText
 // - But in theory it's almost limitless as to what can be considred stateful logic in a React component.
+// ---------------------------------------------------------------------------------------------------------------------------
+
+// 2) Custom Hooks as Mecahnism for not repeating logic with non-visual behavior Notes ----------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
