@@ -1,6 +1,6 @@
 import React from "react";
-
 import "./App.css";
+import DynamicTitle from "./🛠FollowAlong/Practice";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <h6>Composing and Sharing Non-Visual Behavior</h6>
       </header>
+      <DynamicTitle />
     </div>
   );
 }
